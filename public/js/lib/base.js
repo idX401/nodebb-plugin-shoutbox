@@ -223,7 +223,7 @@
 			messages: {
 				alert: '[ %u ] - new shout!',
 				empty: 'The shoutbox is empty, start shouting!',
-				scrolled: '<a href="#" id="shoutbox-content-overlay-scrolldown">Scroll down</a>',
+				scrolled: '<a class="text-reset" href="#" id="shoutbox-content-overlay-scrolldown">Scroll down</a>',
 			},
 			userCheck: 0,
 		};
