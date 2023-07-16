@@ -37,10 +37,11 @@
             </div>
 
             <div class="d-flex gap-1 px-2">
-                <input type="text" placeholder="[[shoutbox:enter_message]]" name="shoutbox-message" class="shoutbox-message-input form-control">
-                <span class="input-group-btn">
-                    <button class="shoutbox-message-send-btn btn btn-primary" type="button">[[shoutbox:send_message]]</button>
-                </span>
+                <div class="input-group">
+                  <input type="text" name="shoutbox-message" class="shoutbox-message-input form-control" placeholder="[[shoutbox:enter_message]]">
+                  <button class="btn btn-outline-secondary" type="button">Emoji</button>
+                  <button class="shoutbox-message-send-btn btn btn-outline-secondary" type="button">[[shoutbox:send_message]]</button>
+                </div>
             </div>
 
             {{{ if features.length }}}
