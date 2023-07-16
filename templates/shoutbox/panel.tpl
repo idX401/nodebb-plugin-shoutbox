@@ -31,7 +31,7 @@
             <div class="shoutbox-content-container position-relative h-100" style="min-height:0px;">
                 <div class="shoutbox-content-overlay p-2 position-absolute bg-body w-100 mh-100 border-bottom overflow-auto d-flex align-items-center justify-content-between">
                     <span class="shoutbox-content-overlay-message"></span>
-                    <a href="#" class="shoutbox-content-overlay-close fa fa-times"></a>
+                    <a href="#" class="text-reset shoutbox-content-overlay-close fa fa-times"></a>
                 </div>
                 <div class="shoutbox-content h-100 p-2 text-sm"></div>
             </div>
